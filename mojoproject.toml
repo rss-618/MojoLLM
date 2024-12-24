@@ -1,0 +1,12 @@
+[project]
+authors = ["Ryan Schildknecht <schildknecht618@gmail.com>"]
+channels = ["conda-forge", "https://conda.modular.com/max"]
+description = "A test project for me to see what mojo is about and to learn about LLMs"
+name = "MojoLLM"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+max = ">=24.6.0,<25"
