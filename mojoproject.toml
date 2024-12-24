@@ -9,4 +9,6 @@ version = "0.1.0"
 [tasks]
 
 [dependencies]
-max = ">=24.6.0,<25"
+max = "~=24.6"
+pytorch = "==2.4.0"
+transformers = "==4.40.1"
